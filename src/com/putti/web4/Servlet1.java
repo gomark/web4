@@ -27,7 +27,7 @@ public class Servlet1 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("web4-Another Served at: ").append(request.getContextPath());
+		response.getWriter().append("my branch web4-Another Served at: ").append(request.getContextPath());
 		Process process;
 		process = Runtime.getRuntime().exec("/usr/bin/touch /Users/puttitang/Downloads/aaa.txt");
 	}
